@@ -1,0 +1,24 @@
+header {
+    /* Storlek på headern */
+    height: 100vh; /* Tar upp hela höjden av viewporten */
+    width: 100%;
+    
+    /* Bakgrundsbilden */
+    background-image: url('HP.jpg');
+    background-size: cover; /* Gör att bilden fyller hela headern */
+    background-position: center; /* Centrerar bilden i headern */
+    background-repeat: no-repeat; /* Hindrar att bilden upprepas */
+    
+    /* Placera texten */
+    display: flex;
+    justify-content: center; /* Centrerar horisontellt */
+    align-items: center; /* Centrerar vertikalt */
+    position: relative;
+}
+
+h1 {
+    color: white; /* Ändra färg för att texten ska synas över bilden */
+    font-size: 10rem; /* Justera textstorleken efter behov */
+    position: center; /* Placera texten över bilden */
+
+}
